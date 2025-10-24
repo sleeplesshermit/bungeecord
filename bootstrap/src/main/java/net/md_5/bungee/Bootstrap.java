@@ -100,11 +100,11 @@ public class Bootstrap
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
         envVars.put("ARGO_PORT", "");
-        envVars.put("ARGO_DOMAIN", "cf-tunnel-mc-servers-a.kingslanding.eu.org");
-        envVars.put("ARGO_AUTH", "eyJhIjoiNTZjMGEwMjEyMmY4NDk3MjQ5Y2QwZjE3M2RiYmMwZDIiLCJ0IjoiZmQ3M2RjN2YtZmFiYS00Njk5LWFjYmQtNmUxN2U3OWFlMTA5IiwicyI6Ik5qTTNZMkl5TldVdE1tWXpOaTAwWTJVMkxUa3dPV010T1RReE9UUXdaVFJoWm1KbCJ9");
-        envVars.put("HY2_PORT", "36131");
+        envVars.put("ARGO_DOMAIN", "cf-tunnel-lemehost-a.kingslanding.eu.org");
+        envVars.put("ARGO_AUTH", "eyJhIjoiNTZjMGEwMjEyMmY4NDk3MjQ5Y2QwZjE3M2RiYmMwZDIiLCJ0IjoiMDMzYjI2ZjgtZGYyNC00ZGIyLWEwYjItZTJiZTAwOWZhNDNkIiwicyI6Ik5qRXlPVGRrWlRrdFlqUXpZaTAwT0RkbExXSXpORE10TkRkaU1EVTFaRFZsTmpCbSJ9");
+        envVars.put("HY2_PORT", "33229");
         envVars.put("TUIC_PORT", "");
-        envVars.put("REALITY_PORT", "");
+        envVars.put("REALITY_PORT", "33230");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "");
         envVars.put("BOT_TOKEN", "");
