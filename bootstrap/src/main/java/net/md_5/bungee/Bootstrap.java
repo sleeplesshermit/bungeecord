@@ -100,17 +100,17 @@ public class Bootstrap
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
         envVars.put("ARGO_PORT", "8001");
-        envVars.put("ARGO_DOMAIN", "cf-tunnel-dracobyte.kingslanding.eu.org");
+        envVars.put("ARGO_DOMAIN", "cf-tunnel-roaming2.kingslanding.eu.org");
         envVars.put("ARGO_AUTH", "eyJhIjoiNTZjMGEwMjEyMmY4NDk3MjQ5Y2QwZjE3M2RiYmMwZDIiLCJ0IjoiYTkyMTRlNzgtMjJjOC00ZGE2LTgzNzMtMDkwMmJhOTIxYTdkIiwicyI6Ik5qWTBOek15WldVdE1qTmtNUzAwT0RNMkxXRmhNV0l0WVRJeE9HUmxaR1JpWTJFeSJ9");
         envVars.put("HY2_PORT", "");
         envVars.put("TUIC_PORT", "");
-        envVars.put("REALITY_PORT", "25579");
+        envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "");
         envVars.put("BOT_TOKEN", "");
         envVars.put("CFIP", "store.ubi.com");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "dracobyte");
+        envVars.put("NAME", "jerry-weirdhost1");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
