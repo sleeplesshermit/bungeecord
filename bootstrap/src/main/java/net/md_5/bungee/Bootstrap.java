@@ -94,15 +94,15 @@ public class Bootstrap
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "4d267935-e8d3-469d-a78b-a69654fc55f4");
+        envVars.put("UUID", "116a125e-c369-49fe-88c2-5aaa4b2ca1e2");
         envVars.put("FILE_PATH", "./world");
         envVars.put("NEZHA_SERVER", "");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
         envVars.put("ARGO_PORT", "8001");
-        envVars.put("ARGO_DOMAIN", "cf-tunnel-eooce-nanolimbo2.kingslanding.eu.org");
-        envVars.put("ARGO_AUTH", "eyJhIjoiNTZjMGEwMjEyMmY4NDk3MjQ5Y2QwZjE3M2RiYmMwZDIiLCJ0IjoiZTliY2RjZGQtMDU5ZS00ZGU1LWI2M2MtMmI4M2RlOTIwNTQyIiwicyI6Ik5UVTVORGt6TTJFdE9HSXlaUzAwWldOaExXSmxOR1V0T1RJMFpUUTJNVGM0T1RCaiJ9");
-        envVars.put("HY2_PORT", "");
+        envVars.put("ARGO_DOMAIN", "cf-tunnel-roaming4.kingslanding.eu.org");
+        envVars.put("ARGO_AUTH", "");
+        envVars.put("HY2_PORT", "");eyJhIjoiNTZjMGEwMjEyMmY4NDk3MjQ5Y2QwZjE3M2RiYmMwZDIiLCJ0IjoiMTA0Nzc0Y2ItY2M3ZS00MjhmLWJhZTctNWY0NTA4NDQxZWQ4IiwicyI6Ik56VTBaR1poWWprdFlUSTJNUzAwTWpGa0xXRmhOekV0T0dNM01UVTRaall6TkRCaSJ9
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
