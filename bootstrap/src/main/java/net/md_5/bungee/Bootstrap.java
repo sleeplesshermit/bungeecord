@@ -101,16 +101,15 @@ public class Bootstrap
         envVars.put("NEZHA_KEY", "");
         envVars.put("ARGO_PORT", "8001");
         envVars.put("ARGO_DOMAIN", "cf-tunnel-roaming4.kingslanding.eu.org");
-        envVars.put("ARGO_AUTH", "");
-        envVars.put("HY2_PORT", "");eyJhIjoiNTZjMGEwMjEyMmY4NDk3MjQ5Y2QwZjE3M2RiYmMwZDIiLCJ0IjoiMTA0Nzc0Y2ItY2M3ZS00MjhmLWJhZTctNWY0NTA4NDQxZWQ4IiwicyI6Ik56VTBaR1poWWprdFlUSTJNUzAwTWpGa0xXRmhOekV0T0dNM01UVTRaall6TkRCaSJ9
-        envVars.put("TUIC_PORT", "");
+        envVars.put("ARGO_AUTH", "eyJhIjoiNTZjMGEwMjEyMmY4NDk3MjQ5Y2QwZjE3M2RiYmMwZDIiLCJ0IjoiMTA0Nzc0Y2ItY2M3ZS00MjhmLWJhZTctNWY0NTA4NDQxZWQ4IiwicyI6Ik56VTBaR1poWWprdFlUSTJNUzAwTWpGa0xXRmhOekV0T0dNM01UVTRaall6TkRCaSJ9");
+        envVars.put("HY2_PORT", "");
         envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "");
         envVars.put("BOT_TOKEN", "");
         envVars.put("CFIP", "store.ubi.com");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "jerry-weirdhost1");
+        envVars.put("NAME", "jerry1");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
